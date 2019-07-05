@@ -4,6 +4,7 @@ header {
     position: relative;
 }
 
+
 .background-img {
     overflow: hidden;
     position: relative;
@@ -16,7 +17,6 @@ header {
 
 .img {
     width: 100%;
-    min-width: 500px;
     height: auto;
     opacity: 0.5;
     top: 0;
@@ -29,7 +29,7 @@ header {
     color: white;
     z-index: 1;
     position: absolute;
-    top: 53%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;

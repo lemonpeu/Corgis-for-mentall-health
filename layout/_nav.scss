@@ -3,13 +3,22 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
+    background-color: transparent;
 }
+main {
+
+    background-color: transparent;
+}
+
 
 nav {
     z-index: 1;
     height: 30%;
+    width: 100%;
     background-color: transparent;
-    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 
 ul {

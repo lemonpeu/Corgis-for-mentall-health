@@ -3,13 +3,25 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: transparent;
+}
+
+main {
+  background-color: transparent;
 }
 
 nav {
   z-index: 1;
   height: 30%;
+  width: 100%;
   background-color: transparent;
-  overflow: hidden;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ul {
@@ -46,7 +58,6 @@ header {
 
 .img {
   width: 100%;
-  min-width: 500px;
   height: auto;
   opacity: 0.5;
   top: 0;
@@ -59,7 +70,7 @@ header {
   color: white;
   z-index: 1;
   position: absolute;
-  top: 53%;
+  top: 68%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
