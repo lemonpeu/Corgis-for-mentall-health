@@ -7,7 +7,6 @@ header {
 .background-img {
     overflow: hidden;
     background-color: #202020;   
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -19,8 +18,7 @@ header {
     min-width: 500px;
     height: auto;
     opacity: 0.5;
-    position: absolute;
-    top: -250px;
+    top: 0;
 }
 
 .btn-start {
@@ -37,6 +35,12 @@ header {
     border-radius: 25px;
     line-height: 30px;
     border: 2px solid white;
+}
+
+.btn-start:hover {
+    background-color: white;
+    color: black;
+    transition: all .5s ease;
 }
 
 @media (max-width: 850px) {
