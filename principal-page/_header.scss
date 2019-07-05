@@ -6,6 +6,7 @@ header {
 
 .background-img {
     overflow: hidden;
+    position: relative;
     background-color: #202020;   
     top: 0;
     right: 0;
@@ -30,7 +31,7 @@ header {
     position: absolute;
     top: 53%;
     left: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 25px;
     line-height: 30px;
