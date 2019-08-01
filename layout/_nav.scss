@@ -5,15 +5,11 @@ body {
     margin: 0;
     background-color: transparent;
 }
-main {
 
-    background-color: transparent;
-}
 
 
 nav {
     z-index: 1;
-    height: 30%;
     width: 100%;
     background-color: transparent;
     position: absolute;
@@ -31,5 +27,11 @@ li {
     list-style: none;
     margin: 0 20px;
     text-transform: uppercase;
+    font-family: $important-font;
+}
+
+li:hover {
+    cursor: pointer;
+    border-bottom: 1.2px solid black;
 }
 
