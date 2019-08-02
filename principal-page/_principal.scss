@@ -14,13 +14,14 @@ a:active {
    margin: 0 50px;
    background-color: white;
    padding: 20px 20px;
-   box-sizing: border-box
+   box-sizing: border-box;
 }
 
 #principal-section {
     background: linear-gradient(#aee664, #9198e5);    
     height: 100%;
     margin: 50px;   
+    font-family: $content-font;
 }
 
 
@@ -31,5 +32,10 @@ h1 {
     padding: 5px;
     text-align: center;
     font-family: $important-font;
+}
+
+.text {
+    font-size: 17px;
+    letter-spacing: 3px;
 }
 

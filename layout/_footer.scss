@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5% 4%;
+    border-top: 0.5px solid #095256;
+    box-sizing: border-box;
+}
+
+.footer-title {
+    font-family: $important-font;
+    text-transform: uppercase;
+}
+
+.footer-container{
+    width: 20%;
+    box-sizing: border-box;
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+        
+}
+
+.footer-list {
+    list-style: none;
+    font-family: $content-font;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 0;
+}

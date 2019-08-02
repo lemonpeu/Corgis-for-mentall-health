@@ -1,9 +1,10 @@
 body {
-    width: auto;
+
     height: 100%;
     padding: 0;
     margin: 0;
     background-color: transparent;
+    box-sizing: border-box;
 }
 
 
@@ -15,22 +16,22 @@ nav {
     position: absolute;
     display: flex;
     justify-content: center;
+    ul {
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+    }
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-    background-color: transparent;
-}
 
-li {
+.nav-list {
     list-style: none;
     margin: 0 20px;
     text-transform: uppercase;
     font-family: $important-font;
 }
 
-li:hover {
+.nav-list:hover {
     cursor: pointer;
     border-bottom: 1.2px solid black;
 }
