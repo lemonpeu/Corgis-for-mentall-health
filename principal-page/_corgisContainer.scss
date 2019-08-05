@@ -24,13 +24,59 @@
 }
 
 #corgis-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
     padding-bottom: 5%;
     p {
         font-family: $important-font;
         text-align: center;
         font-size: 20px;
     }
+}
+
+.corgis-style-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#full-container {
+    display: none;
+    box-sizing: border-box;
+}
+
+.full-container-style {
+    margin: 0 50px;
+    background-color: white;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-option1 {
+    font-size: 18px;
+}
+
+.continue-btn {
+    cursor: pointer;
+    background-color: #087F8C;
+    border-radius: 15px;
+    width: 250px;
+    height: 55px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-weight: 100;
+    margin: 10px;
+    float: left;
+}
+
+.continue-btn:nth-of-type(3) {
+    clear: both;
+}
+
+.corgis-img {
+    width: 300px;
 }
