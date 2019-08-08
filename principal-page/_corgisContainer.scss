@@ -2,7 +2,7 @@
     cursor: pointer;
     width: 180px;
     height: 40px;
-    background-color: #DA4167;
+    background-color: $option-color-red;
     margin: 10px 10px;
     list-style: none;
     font-family: $important-font;
@@ -80,3 +80,35 @@
 .corgis-img {
     width: 300px;
 }
+
+#next-corgi {
+    background-color: $btn-blue;
+}
+
+.btn-for-options {
+    background-color: $btn-green;
+}
+
+#next-corgi,
+.btn-for-options {
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    margin: 10px 10px;
+    list-style: none;
+    font-family: $important-font;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: box-shadow 0.3s ease-in;
+    float: left;
+    line-height: 39px;
+    border: none;
+}
+
+#next-corgi:hover,
+.btn-for-options:hover {
+    box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.75);
+    transition: box-shadow 0.3s ease-in;
+}
+

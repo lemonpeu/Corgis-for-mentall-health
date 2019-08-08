@@ -1,3 +1,7 @@
+main {
+    position: relative;
+}
+
 a:active,
 a:hover,
 a:visited {
@@ -19,6 +23,7 @@ a:active {
     background-color: white;
     padding: 20px 20px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 #principal-section {
@@ -26,6 +31,7 @@ a:active {
     height: auto;
     margin: 50px;   
     font-family: $content-font;
+    position: relative;
 }
 
 h1:nth-of-type(1) {
@@ -43,9 +49,52 @@ h1 {
 
 .text {
     font-size: 17px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
-main {
-    position: relative;
+.btn-read {
+    background-color: $btn-blue;
+}
+.btn-hide {
+    background-color: $btn-green;
+}
+
+.btn-read,
+.btn-hide {
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    margin: 10px 10px;
+    list-style: none;
+    font-family: $important-font;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: box-shadow 0.3s ease-in;
+    float: left;
+    line-height: 39px;
+    border: none;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.btn-read:hover,
+.btn-hide:hover {
+    box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.75);
+    transition: box-shadow 0.3s ease-in;
+}
+
+.letter-content {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.btn-hide {
+    display: none;
+}
+
+.show-content {
+    display: block;
 }
