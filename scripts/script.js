@@ -108,7 +108,7 @@ const optionOne = () => {
     corgisContainer.style.display = 'none';
     document.getElementById('full-container').style.display = 'block';
     nextCorgi.style.display = "block";
-    textOption[0].innerText = `Los corgis siempre van a levantarnos el ánimo, así que acá tenés muchas fotos de corgis lindos`;
+    textOption[0].innerText = ``;
     randomCorgi();
     nextCorgo();
 };
@@ -135,7 +135,7 @@ const optionTwo = () => {
     corgisContainer.style.display = 'none';
     document.getElementById('full-container').style.display = 'block';
     nextCorgi.style.display = "block";
-    textOption[0].innerText = `Estos videos son re lindos y me alegro que me los hayas mostrado porque siempre nos levantan el animo`;
+    textOption[0].innerText = ``;
     randomDaily();
     nextDaily();
 };
@@ -236,3 +236,4 @@ options();
 showLetter();
 hideLetter();
 HOME();
+
