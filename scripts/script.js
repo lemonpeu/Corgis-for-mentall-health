@@ -63,9 +63,15 @@ const HOME = () => {
 
 const showLetter = () => {
     btnRead[0].onclick = () => {
-        btnRead[0].style.display = 'none';
-        letterContent[0].innerText = LETTER.text;
-        btnHide[0].style.display = 'block';
+        let contrasena = prompt("Contraseña");
+        if (contrasena === "brocoli") {
+            btnRead[0].style.display = 'none';
+            letterContent[0].innerText = LETTER.text;
+            btnHide[0].style.display = 'block';
+        } else {
+            alert("No tenés permiso para ver esta página")
+        }
+
     }
 };
 
@@ -135,7 +141,7 @@ const optionTwo = () => {
     corgisContainer.style.display = 'none';
     document.getElementById('full-container').style.display = 'block';
     nextCorgi.style.display = "block";
-    textOption[0].innerText = `Estos videos son re lindos y me alegro que me los hayas mostrado porque siempre nos levantan el animo`;
+    textOption[0].innerText = `Videos lindos para levantar el ánimo`;
     randomDaily();
     nextDaily();
 };
@@ -146,7 +152,7 @@ const optionTwo = () => {
 const randomDaily = () => {
     optionsBox[0].innerHTML = "";
     const video = document.createElement('iframe');
-    video.style.width = '500px';
+    video.style.width = '600px';
     video.style.height = '400px';
     video.setAttribute("allow", "accelerometer");
     video.setAttribute("frameborder", "0");
@@ -175,7 +181,7 @@ const optionThree = () => {
 const randomSong = () => {
     optionsBox[0].innerHTML = "";
     const video = document.createElement('iframe');
-    video.style.width = '500px';
+    video.style.width = '600px';
     video.style.height = '400px';
     video.setAttribute("allow", "accelerometer");
     video.setAttribute("frameborder", "0");
@@ -200,19 +206,19 @@ const optionFour = () => {
     textOption[0].innerText = `Cositas random`;
     optionsBox[0].innerHTML = "";
     let randomNumber = Math.floor((Math.random() * 2) + 1);
-        if(randomNumber === 1) {
-            textOption[0].innerText = `Videos totalmente randoms`;
-            randomVideo();
-        } else if(randomNumber === 2) {
-            textOption[0].innerText = `Hace click en el link y te va a llevar a una pagina random`;
-            randomPage();
-        }
+    if (randomNumber === 1) {
+        textOption[0].innerText = `Videos totalmente randoms`;
+        randomVideo();
+    } else if (randomNumber === 2) {
+        textOption[0].innerText = `Hace click en el link y te va a llevar a una pagina random`;
+        randomPage();
+    }
 };
 
 const randomVideo = () => {
     optionsBox[0].innerHTML = "";
     const video = document.createElement('iframe');
-    video.style.width = '500px';
+    video.style.width = '600px';
     video.style.height = '400px';
     video.setAttribute("allow", "accelerometer");
     video.setAttribute("frameborder", "0");
@@ -227,7 +233,7 @@ const randomPage = () => {
     const url = document.createElement('a');
     url.innerText = 'Click';
     let random = Math.floor((Math.random() * 23));
-    url.href =  randomPages[random];
+    url.href = randomPages[random];
     optionsBox[0].appendChild(url);
 }
 

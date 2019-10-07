@@ -159,7 +159,23 @@ const randomPages = [
 ]
 
 const LETTER = {
-    text: `Siempre fui media ñoña, muy cariñosa y expresiva, quizás tras leer esto te dan ganas de no hablarme más, por lo extremadamente cursi que puedo llegar a hacer pero creo que al ser una ocasión especial puedo darme el lujo de escribirlo y vos leerlo de querer, y sino también está bien. La idea no es que esto sea una carta web, no es la idea. 
+    text: ` Hola lindo, ¿cómo estás?
+    
+    Esta es una de mis tantas maneras de demostrarte no sólo lo mucho que
+    te quiero sino además que no estás solo, que incluso en esos días donde deseás encerrarte
+    del
+    mundo siempre vas a tener a alguien que te tienda una mano apenas levantes un poco la
+    cabeza.
+    
+    A medida que pase el tiempo voy a ir agregándole más accesibilidad, más funciones y más
+    contenidos a la página para que siempre tengas algo nuevo para ver, en esos días tristes
+    también.
+
+    También quiero que sepas que, como la cursi que soy, te escribí algo.
+    
+ 
+    
+    Siempre fui media ñoña, muy cariñosa y expresiva, quizás tras leer esto te dan ganas de no hablarme más, por lo extremadamente cursi que puedo llegar a hacer pero creo que al ser una ocasión especial puedo darme el lujo de escribirlo y vos leerlo de querer, y sino también está bien. La idea no es que esto sea una carta web, no es la idea. 
     Siento que te conocí dos veces. La primera, un desconocido total, alguien que nunca había visto pero se presentaba ante mi como alguien fácil de hablar, reservado pero muy bueno, siempre dispuesto a ayudar e intentar mediar situaciones. Hablábamos de vez en cuando, un cómo estás, un “¿Qué pensás de esto?” y muchas imágenes compartidas en el medio. Ninguno sabía realmente como era el otro ni qué sucedía en su vida pero aún así el contacto siempre estuvo y me pareció algo muy acogedor de tu parte, especialmente cuando confiaste una gran angustia tuya cuando seguía existiendo ese tipo de relación. Nunca me consideré alguien en tu vida y con ese paso que vos mismo te permitiste a dar sentí que vos también me permitías a mi dar un paso también. Me sorprendí y me preocupé, si, porque te quería, porque no sabía como ayudarte pese a haber estado en esa situación, por haber sentido lo mismo que vos, porque siempre que surgen estos sentimientos en un otro ajeno me pregunto porqué los procedimientos no pueden ser más fáciles, como simplemente desear que el otro se sienta mejor y ya esté. Pasaron semanas y se generó el vernos.
     Siempre me costó a mi quedarme en casa ajena y te lo conté, me siento incómoda en un lugar que no me es mío, con pautas que desconozco y las sensaciones que eso genera. Y, sin embargo, quedándome en tu casa el cambio de lugar no lo sentí tan grave. Recuerdo la extrañeza de estar en tu cuarto, compartiendo un espacio nosotros dos solos, porque para mi siempre habías sido el amigo de. Y así fui conociendo un lado de vos totalmente ajeno a mi que me asombró y encantó. 
     Me encanta cuando me explicás sobre cosas que no entiendo o cosas que desconozco,  tenés muchísimo conocimiento acumulado y es impresionante lo inteligente que sos. Sé que anteriormente me dijiste que “Saber un poco de todo no es inteligente” pero la inteligencia no pasa por ahí, la inteligencia pasa por la curiosidad, por la necesidad de querer aprender un poco más, de interesarse. Cuando una persona habla de algo que leyó muestra ese interés sobre ese tema, lo suficiente para  recordarlo, para tomarse el tiempo en explicártelo. Vos hacés todo eso, no es que sólo ‘sabés’. Tenés además una manera de explicar muy particular, sos paciente, puntual, detallista. Y eso va ligado a tu interés por ayudar, a vos te gusta que la otra persona esté cómoda, ya sea en una conversación o jugando un juego, te gusta que la otra persona esté a gusto, que se pueda sentir bien. Cuando me quedé con PC te tomaste el trabajo de armarme otra, cuando Jony se armó la PC le regalaste unas cosas, creo que a Pablo también y no estoy hablando de lo material únicamente, sino del gesto en sí, cuando me siento mal me escuchás y no solo eso, me validás, que es lo más importante. Más allá de los mambos que yo misma tenga, de sentir que soy exagerada, de no saber si estoy o no en lo correcto: Me escuchás igual y dialogás y siempre me dejás en claro que si me molesta es motivo suficiente para charlarlo. Tenés tanto amor para dar que me gustaría que fueras capaz de recibir todo el amor que la gente tiene para darte. 
